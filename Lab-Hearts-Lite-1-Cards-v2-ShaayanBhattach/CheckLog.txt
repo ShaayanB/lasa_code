@@ -1,0 +1,42 @@
+* * * * * * * * CS Checker Log file! * * * * * * * *
+
+= = = = = = List Fields Card Class = = = = = =
+    spec'd > private String name
+    spec'd > private String suit
+    spec'd > private int value
+End List Fields
+
+
+= = = = = = Test Card .equals() Method = = = = = =
+Equals() method ok
+
+
+= = = = = = List Methods Card Class = = = = = =
+    spec'd > boolean equals(Object)
+    spec'd > String toString()
+    spec'd > int compareTo(Object)
+    spec'd > String getName()
+    spec'd > int getValue()
+    spec'd > void setName(String)
+    spec'd > void setValue(int)
+    spec'd > int sortRank()
+    spec'd > String getSuit()
+    spec'd > void setSuit(String)
+
+- - - - - - - - - - - - - - - - - - - - - - -
+End List Methods
+
+
+= = = = = = Test Card .equals() Method = = = = = =
+Equals() method ok
+
+
+= = = = = = List Constructors Card Class = = = = = =
+    spec'd > public Card ()
+    spec'd > public Card (String, String, int)
+Testing Default Constructor:
+  OK
+Testing Initialization Constructor: new Card("3","clubs",3)
+  OK
+End list Constructors
+
